@@ -1,0 +1,237 @@
+.bgcolor{
+    background-color:#ACD5DE;
+
+}
+.head{
+
+color:#1A4E8D;
+font-size: 20px;
+}
+.navbutton{
+ border-radius:10px;
+ width: 100px;
+}
+.txt{
+
+    font-size: 120px;
+    color:#1A4E8D;
+    text-align:center;
+    margin-top: 100px;
+}
+.txt h1{
+    font-size: 75px;
+}
+.txt p{
+    font-size: 25px;
+    color:#1A4E8D;
+    text-align:center;
+}
+.pawfect{
+    font-size: 25px;
+    color:#1A4E8D;
+    text-align:center;
+}
+#frame {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #text {
+    position: absolute;
+    top: -50px; /* Adjust this value to move the text up */
+    left: 0;
+  }
+  @keyframes typing {
+    from { width: 0; }
+  }
+  
+  #heading {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end);
+  }
+  .white{
+    margin-top: 320px;
+  }
+  .pamp{
+    
+    text-align: center;
+    color:#1A4E8D;
+    font-size: 125px;
+    margin-top: 300px;
+  }
+  
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+  .user-img{
+    width: 540px;
+    position: absolute;
+    right: 8%;
+    bottom: 0;
+  }
+  .white{
+    width: 100%;
+    height: 550px;
+  }
+  .icons{
+    margin-top: 30px;
+    margin-left: auto;
+    color:#1A4E8D ;
+    padding: 100px;
+  }
+  .serv{
+    text-align: center;
+    color:#1A4E8D;
+    font-size: 25px;
+  }
+  .color{
+  
+    margin-top: 50px;
+    
+  }
+  .words span{
+    display: block;
+    height: 100px;
+    padding-left: 10px;
+    border: 1px solid orange;
+  }
+  .words{
+    overflow: hidden;
+  }
+  .wrapper{
+    box-sizing: content-box;
+    height: 70px;
+    padding: 50px 30px;
+    display: flex;
+    box-shadow: 0px 20px 25px rgba(0,0,0,0.2);
+    animation: spin_words 6s infinite;
+  }
+  @keyframes spin_words {
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+    
+    
+    
+  }
+  .tat{
+    font-size: 30px;
+    color: #1A4E8D;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .white1{
+    background-color: white;
+    width: 100%;
+  }
+  .con{
+    font-size: 50px;
+    color: #1A4E8D;
+  }
+  .card:hover img{
+    transform: scale(1.1);
+  }
+  .card img{
+    transition: 0.9s ease;
+    overflow: hidden;
+  }
+  .card{
+    overflow: hidden;
+  }
+  .card card-body{
+    position: absolute;
+    padding: 15px 20px 40px;
+    bottom: 0;
+    z-index: 1;
+  }
+  .card h5{
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .card p{
+    font-size: 0 8em;
+    line-height: 1.6em;
+
+  }
+  .card card-body::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg,#b2c4c9,#fff);
+    opacity: 0.8;
+    z-index: -1;
+  }
+ 
+    
+  
+  .card{
+    border: 0;
+  }
+  .card card-body{
+    background: #ACD5DE;
+  }
+  .col{
+    border: 0;
+  }
+  .head{
+   margin-top: 10px; 
+  }
+  .contact{
+    background-color: #1A4E8D;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+ 
+
+  .body{
+  margin-left: 10px;
+  }
+  .contact h4{
+    color: white;
+    text-align: center;
+  }
+  .location{
+    color: white;
+    padding-left: 90px;
+  }
+  .social{
+    color: white;
+    text-align: center;
+  }
+  .contac{
+    color: white;
+    padding-right: 90px;
+  }
